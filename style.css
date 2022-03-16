@@ -1,7 +1,5 @@
 *{
   text-align: center;
-  padding: 0%;
-  margin: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -18,3 +16,23 @@
   height: 150px;
   width: 200px;
 }
+
+.heading{
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+.recipes{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.recipes img{
+    width:  250px;
+    height: 250px;
+    background-size: cover;
+}
+
+
